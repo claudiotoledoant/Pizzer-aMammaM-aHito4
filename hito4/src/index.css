@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,400&family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfaf4; /* Tono crema rústico */
+  color: #2c2a29;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Colores de acento tricolor italiano */
+.bg-italian-green {
+  background-color: #1b4332 !important;
+}
+
+.text-italian-red {
+  color: #a61c1c !important;
+}
+
+.btn-italian-red {
+  background-color: #a61c1c;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-italian-red:hover {
+  background-color: #851414;
+  color: #ffffff;
+}
+
+.btn-italian-outline {
+  border: 2px solid #1b4332;
+  color: #1b4332;
+  font-weight: 600;
+}
+
+.btn-italian-outline:hover {
+  background-color: #1b4332;
+  color: #ffffff;
+}
+
+/* Sombras y bordes estilo trattoria */
+.card-trattoria {
+  border: 1px solid #e8e1d5;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-trattoria:hover {
+  transform: translateY(-4px);
+}
